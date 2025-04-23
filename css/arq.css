@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #ccc;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #fafafa;
+  padding: 15px 25px;
+  border-radius: 15px;
+  background: #fafafa;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+button{
+  height: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 10px;
+  background: rgb(0, 132, 255);
+  color: white;
+  cursor: pointer;
+
+}
