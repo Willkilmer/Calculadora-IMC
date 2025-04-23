@@ -13,7 +13,7 @@ calcular.addEventListener("click", () => {
         situacao = "Muito abaixo do peso";
     //entre 17 e 18,49 então a situação é Abaixo do peso
     else if (imc >= 17 && imc <= 18.49)
-        situacao = "ta passando fome é?";
+        situacao = "Abaixo do peso";
     //entre 18.50 e 24,99 então a situação é Peso normal
     else if(imc >= 18.5 && imc <= 24.99)
         situacao = "Peso normal";
